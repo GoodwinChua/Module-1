@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development with Javascript Day 1</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- My Style -->
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Section: Header -->
+        <hr>
+        <header class="header1">
+                <h1>WEB DEVELOPMENT (JAVASCRIPT)</h1>
+            <p>DAY 1</p>
+        </header>
+
+
+        <!-- Section: Image Division -->
+        <hr>
+        <img id="headImg" src="https://media0.giphy.com/media/2jMjJCjdO3RuNh4asH/giphy.gif">
+        <br>
+
+        <!-- Section: Phrase Tags -->
+        <br />
+        <hr />
+        <h2>Javascript</h2>
+        <hr />
+        <br />
+        <div>
+            <!-- <form> -->
+                <table>
+                    <th>
+                        <tr>
+                            <td> Team #</td>
+                            <td> Team Name </td>
+                            <td> Wins (3)</td>
+                            <td> Draws (1)</td>
+                            <td> Losses (-1)</td>
+                        </tr>
+                    </th>
+                    <tbody>
+                        <tr>
+                            <td> 1</td>
+                            <td> <input id="team1Name" type="text"> </td>
+                            <td> <input type="number" name="" id="team1Wins"></td>
+                            <td> <input type="number" name="" id="team1Draws"></td>
+                            <td> <input type="number" name="" id="team1Losses"></td>
+                        </tr>
+                        <tr>
+                            <td> 2</td>
+                            <td> <input id="team2Name" type="text"> </td>
+                            <td> <input type="number" name="" id="team2Wins"></td>
+                            <td> <input type="number" name="" id="team2Draws"></td>
+                            <td> <input type="number" name="" id="team2Losses"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- <label for="name">Full Name:</label><br>
+                <input id="name" type="text"><br><br> -->
+                <br>
+                <button onclick="calculate()" class="btn btn-outline-light"> Click me to find out the winner</button>
+                <!-- <input type="button" class="btn btn-outline-light" value="Click me to find out the winner" onclick="calculate()"><br> -->
+
+            <!-- </form> -->
+            <hr>
+            <h1> <span id="amhere"></span></h1>
+        </div>
+
+
+    </div>
+
+</body>
+<!-- My Custom Script -->
+<script src="myscript.js"></script>
+
+</html>
